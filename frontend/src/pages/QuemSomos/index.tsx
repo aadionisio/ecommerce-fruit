@@ -15,7 +15,13 @@ const QuemSomos: React.FC = () => {
             <h1>Quem Somos</h1>
             <hr />
             <p>
-              Quitanta Online é uma loja virtual (e-commerce) fictícia criada como estudo de caso para o curso "Desenvolvimento de uma loja Virtual com Bootstrap 5 e ReactJS" disponibilizado gratuitamente pelo Prof. Ricardo Maroquio em seu canal no YouTube
+              Quitanda Online é uma loja virtual (e-commerce) fictícia criada como estudo de caso para o curso "Desenvolvimento de uma loja Virtual com Bootstrap 5 e ReactJS" disponibilizado gratuitamente pelo Prof. Ricardo Maroquio em seu canal no YouTube
+            </p>
+            <p>
+              O código-fonte pode ser obtido via GitHub, conforme orientações apresentadas ao logo dos videos do curso no YouTube. Este estudo de caso poe ser utilizado livremente como base para outras lojas virtuais, sem ônus para o usuario.
+            </p>
+            <p>
+              Bons estudos e boa programação!
             </p>
           </div>
         </main>

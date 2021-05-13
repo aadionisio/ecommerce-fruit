@@ -18,13 +18,13 @@ const Footer: React.FC = () => {
               <Link to="#" className="text-decoration-none text-dark">
                 Política de Privacidade
               </Link><br />
-              <Link to="#" className="text-decoration-none text-dark">
+              <Link to="/termos" className="text-decoration-none text-dark">
                 Termos de uso
               </Link><br />
-              <Link to="#" className="text-decoration-none text-dark">
+              <Link to="/quemsomos" className="text-decoration-none text-dark">
                 Quem Somos
               </Link><br />
-              <Link to="#" className="text-decoration-none text-dark">
+              <Link to="/trocas" className="text-decoration-none text-dark">
                 Trocas e Devoluções
               </Link><br />
             </div>
