@@ -2,6 +2,7 @@ import Contato from 'pages/Contato';
 import Home from 'pages/Home';
 import Privacidade from 'pages/Privacidade';
 import QuemSomos from 'pages/QuemSomos';
+import RecuperarSenha from 'pages/RecuperarSenha';
 import Termos from 'pages/Termos';
 import Trocas from 'pages/Trocas';
 import React from 'react';
@@ -29,6 +30,9 @@ const route: React.FC = () => {
         </Route>
         <Route path="/privacidade" >
           <Privacidade />
+        </Route>
+        <Route path="/recuperarsenha" >
+          <RecuperarSenha />
         </Route>
       </Switch>
     </BrowserRouter>
