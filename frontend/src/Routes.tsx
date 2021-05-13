@@ -1,5 +1,6 @@
 import Contato from 'pages/Contato';
 import Home from 'pages/Home';
+import Privacidade from 'pages/Privacidade';
 import QuemSomos from 'pages/QuemSomos';
 import Termos from 'pages/Termos';
 import Trocas from 'pages/Trocas';
@@ -25,6 +26,9 @@ const route: React.FC = () => {
         </Route>
         <Route path="/trocas" >
           <Trocas />
+        </Route>
+        <Route path="/privacidade" >
+          <Privacidade />
         </Route>
       </Switch>
     </BrowserRouter>

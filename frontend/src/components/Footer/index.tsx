@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
               CNPJ 99.999.999/0001-99
             </div>
             <div className="col-12 col-md-4 text-center">
-              <Link to="#" className="text-decoration-none text-dark">
+              <Link to="/privacidade" className="text-decoration-none text-dark">
                 Política de Privacidade
               </Link><br />
               <Link to="/termos" className="text-decoration-none text-dark">
