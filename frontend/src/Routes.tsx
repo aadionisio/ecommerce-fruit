@@ -1,4 +1,5 @@
 import CadastrarNovaSenha from 'pages/CadastrarNovaSenha';
+import ConfirmCadastroSenha from 'pages/ConfirmCadastroSenha';
 import ConfirmRecupSenha from 'pages/ConfirmRecupSenha';
 import Contato from 'pages/Contato';
 import Home from 'pages/Home';
@@ -45,6 +46,9 @@ const route: React.FC = () => {
         </Route>
         <Route path="/cadastrarnovasenha" >
           <CadastrarNovaSenha />
+        </Route>
+        <Route path="/confirmcadastrosenha" >
+          <ConfirmCadastroSenha />
         </Route>
       </Switch>
     </BrowserRouter>

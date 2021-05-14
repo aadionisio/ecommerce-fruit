@@ -1,0 +1,4 @@
+.form-floating textarea {
+  /* !importaant -> sobreescreve esse estilo ao que vem por padrao no bootstrap */
+  height: 200px !important;
+}

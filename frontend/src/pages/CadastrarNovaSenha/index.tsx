@@ -30,7 +30,7 @@ const CadastrarNovaSenha: React.FC = () => {
 
 
 
-                <Link to="#">
+                <Link to="/confirmcadastrosenha">
                   <button type="button" className="btn btn-lg btn-danger" >
                     Cadastrar Nova Senha
                   </button>
