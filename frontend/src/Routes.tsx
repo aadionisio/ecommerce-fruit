@@ -1,3 +1,4 @@
+import ConfirmRecupSenha from 'pages/ConfirmRecupSenha';
 import Contato from 'pages/Contato';
 import Home from 'pages/Home';
 import Privacidade from 'pages/Privacidade';
@@ -33,6 +34,9 @@ const route: React.FC = () => {
         </Route>
         <Route path="/recuperarsenha" >
           <RecuperarSenha />
+        </Route>
+        <Route path="/confirmrecuperarsenha" >
+          <ConfirmRecupSenha />
         </Route>
       </Switch>
     </BrowserRouter>

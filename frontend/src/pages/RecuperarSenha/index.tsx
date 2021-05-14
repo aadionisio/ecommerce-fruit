@@ -2,6 +2,7 @@ import Footer from 'components/Footer';
 import Navbar from 'components/Navbar';
 import React from 'react';
 import './styles.css';
+import { Link } from "react-router-dom";
 // import { Container } from './styles';
 
 const RecuperarSenha: React.FC = () => {
@@ -21,11 +22,12 @@ const RecuperarSenha: React.FC = () => {
                   <label htmlFor="txtEmail">E-Mail</label>
                 </div>
 
-
-                {/* <button type="button" onClick="window.location.href='confirmrecupsenha.html'"></button> */}
-                <button type="button" className="btn btn-lg btn-danger" >
-                  Recuperar Senha
+                <Link to="/confirmrecuperarsenha">
+                  <button type="button" className="btn btn-lg btn-danger" >
+                    Recuperar Senha
                 </button>
+                </Link><br />
+
                 <p className="mt-3">
                   Ainda não é cadastrado? <a href="#">Clique Aqui</a> para se cadastrar.
                 </p>
