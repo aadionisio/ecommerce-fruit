@@ -32,7 +32,7 @@ const Contato: React.FC = () => {
                 </div>
 
 
-                <Link to="/">
+                <Link to="/confirmacontato">
                   <button type="button" className="btn btn-lg btn-danger" >
                     Enviar Mensagem
                   </button>
