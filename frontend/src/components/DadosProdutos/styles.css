@@ -1,0 +1,15 @@
+i {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+p.truncar-3l {
+  display: -webkit-box;
+  /* truncar 3 linhas */
+  -webkit-line-clamp: 3;
+  /* truncamento vertical. 
+  quando esse elemento crescer pra baixo acima de 3 linhas o efeito sera ativado */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
