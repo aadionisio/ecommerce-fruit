@@ -48,16 +48,16 @@ const Paginacao: React.FC = () => {
                   <button className="page-link" >Anterior</button>
                 </li>
                 <li className="page-item ">
-                  <a className="page-link">1</a>
+                  <a href="/" className="page-link">1</a>
                 </li>
                 <li className="page-item disabled">
-                  <a className="page-link">2</a>
+                  <a href="/" className="page-link">2</a>
                 </li>
                 <li className="page-item ">
-                  <a className="page-link">3</a>
+                  <a href="/" className="page-link">3</a>
                 </li>
                 <li className="page-item ">
-                  <a className="page-link">4</a>
+                  <a href="/" className="page-link">4</a>
                 </li>
                 <li className={`page-item `}>
                   <button className="page-link" > Próxima</button>

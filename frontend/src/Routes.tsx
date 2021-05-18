@@ -1,4 +1,5 @@
 import CadastrarNovaSenha from 'pages/CadastrarNovaSenha';
+import Carrinho from 'pages/Carrinho';
 import ConfirmCadastroSenha from 'pages/ConfirmCadastroSenha';
 import ConfirmContato from 'pages/ConfirmContato';
 import ConfirmRecupSenha from 'pages/ConfirmRecupSenha';
@@ -53,6 +54,9 @@ const route: React.FC = () => {
         </Route>
         <Route path="/confirmacontato" >
           <ConfirmContato />
+        </Route>
+        <Route path="/carrinho" >
+          <Carrinho />
         </Route>
       </Switch>
     </BrowserRouter>

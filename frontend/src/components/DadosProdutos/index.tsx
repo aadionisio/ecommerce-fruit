@@ -35,12 +35,12 @@ const DadosProdutos: React.FC = () => {
         */}
         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div className="card text-center bg-light">
-            <a href="#" className="position-absolute end-0 p-2 text-danger">
+            <a href="/" className="position-absolute end-0 p-2 text-danger">
               <i className="bi-suit-heart">
 
               </i>
             </a>
-            <img src={Produto01} className="card-img-top" />
+            <img src={Produto01} alt="" className="card-img-top" />
             <div className="card-reader">
               R$ 4,59
             </div>
@@ -60,12 +60,12 @@ const DadosProdutos: React.FC = () => {
         {/* divisoria de itens . apagar daqui pra baixo quando for implementar a api */}
         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div className="card text-center bg-light">
-            <a href="#" className="position-absolute end-0 p-2 text-danger">
+            <a href="/" className="position-absolute end-0 p-2 text-danger">
               <i className="bi-suit-heart">
 
               </i>
             </a>
-            <img src={Produto02} className="card-img-top" />
+            <img src={Produto02} alt="" className="card-img-top" />
             <div className="card-reader">
               R$ 4,59
             </div>
@@ -84,12 +84,12 @@ const DadosProdutos: React.FC = () => {
         </div>
         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div className="card text-center bg-light">
-            <a href="#" className="position-absolute end-0 p-2 text-danger">
+            <a href="/" className="position-absolute end-0 p-2 text-danger">
               <i className="bi-suit-heart">
 
               </i>
             </a>
-            <img src={Produto03} className="card-img-top" />
+            <img src={Produto03} alt="" className="card-img-top" />
             <div className="card-reader">
               R$ 4,59
             </div>
@@ -99,7 +99,7 @@ const DadosProdutos: React.FC = () => {
 
             </div>
             <div className="card-footer">
-              <Link to="#" className="btn btn-light disabled mt-2 d-block">
+              <Link to="/" className="btn btn-light disabled mt-2 d-block">
                 <small> Reabastecendo estoque </small>
               </Link>
               <small className="text-danger">Produto Esgotado</small>
@@ -108,12 +108,12 @@ const DadosProdutos: React.FC = () => {
         </div>
         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div className="card text-center bg-light">
-            <a href="#" className="position-absolute end-0 p-2 text-danger">
+            <a href="/" className="position-absolute end-0 p-2 text-danger">
               <i className="bi-suit-heart-fill">
 
               </i>
             </a>
-            <img src={Produto04} className="card-img-top" />
+            <img src={Produto04} alt="" className="card-img-top" />
             <div className="card-reader">
               R$ 4,59
             </div>
@@ -132,12 +132,12 @@ const DadosProdutos: React.FC = () => {
         </div>
         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div className="card text-center bg-light">
-            <a href="#" className="position-absolute end-0 p-2 text-danger">
+            <a href="/" className="position-absolute end-0 p-2 text-danger">
               <i className="bi-suit-heart">
 
               </i>
             </a>
-            <img src={Produto05} className="card-img-top" />
+            <img src={Produto05} alt="" className="card-img-top" />
             <div className="card-reader">
               R$ 4,59
             </div>
@@ -156,12 +156,12 @@ const DadosProdutos: React.FC = () => {
         </div>
         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div className="card text-center bg-light">
-            <a href="#" className="position-absolute end-0 p-2 text-danger">
+            <a href="/" className="position-absolute end-0 p-2 text-danger">
               <i className="bi-suit-heart">
 
               </i>
             </a>
-            <img src={Produto06} className="card-img-top" />
+            <img src={Produto06} alt="" className="card-img-top" />
             <div className="card-reader">
               R$ 4,59
             </div>
@@ -180,12 +180,12 @@ const DadosProdutos: React.FC = () => {
         </div>
         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div className="card text-center bg-light">
-            <a href="#" className="position-absolute end-0 p-2 text-danger">
+            <a href="/" className="position-absolute end-0 p-2 text-danger">
               <i className="bi-suit-heart">
 
               </i>
             </a>
-            <img src={Produto07} className="card-img-top" />
+            <img src={Produto07} alt="" className="card-img-top" />
             <div className="card-reader">
               R$ 4,59
             </div>
@@ -204,12 +204,12 @@ const DadosProdutos: React.FC = () => {
         </div>
         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div className="card text-center bg-light">
-            <a href="#" className="position-absolute end-0 p-2 text-danger">
+            <a href="/" className="position-absolute end-0 p-2 text-danger">
               <i className="bi-suit-heart">
 
               </i>
             </a>
-            <img src={Produto08} className="card-img-top" />
+            <img src={Produto08} alt="" className="card-img-top" />
             <div className="card-reader">
               R$ 4,59
             </div>
@@ -228,12 +228,12 @@ const DadosProdutos: React.FC = () => {
         </div>
         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div className="card text-center bg-light">
-            <a href="#" className="position-absolute end-0 p-2 text-danger">
+            <a href="/" className="position-absolute end-0 p-2 text-danger">
               <i className="bi-suit-heart">
 
               </i>
             </a>
-            <img src={Produto09} className="card-img-top" />
+            <img src={Produto09} alt="" className="card-img-top" />
             <div className="card-reader">
               R$ 4,59
             </div>
@@ -252,12 +252,12 @@ const DadosProdutos: React.FC = () => {
         </div>
         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div className="card text-center bg-light">
-            <a href="#" className="position-absolute end-0 p-2 text-danger">
+            <a href="/" className="position-absolute end-0 p-2 text-danger">
               <i className="bi-suit-heart">
 
               </i>
             </a>
-            <img src={Produto10} className="card-img-top" />
+            <img src={Produto10} alt="" className="card-img-top" />
             <div className="card-reader">
               R$ 4,59
             </div>
@@ -276,12 +276,12 @@ const DadosProdutos: React.FC = () => {
         </div>
         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div className="card text-center bg-light">
-            <a href="#" className="position-absolute end-0 p-2 text-danger">
+            <a href="/" className="position-absolute end-0 p-2 text-danger">
               <i className="bi-suit-heart">
 
               </i>
             </a>
-            <img src={Produto11} className="card-img-top" />
+            <img src={Produto11} alt="" className="card-img-top" />
             <div className="card-reader">
               R$ 4,59
             </div>
@@ -300,12 +300,12 @@ const DadosProdutos: React.FC = () => {
         </div>
         <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div className="card text-center bg-light">
-            <a href="#" className="position-absolute end-0 p-2 text-danger">
+            <a href="/" className="position-absolute end-0 p-2 text-danger">
               <i className="bi-suit-heart">
 
               </i>
             </a>
-            <img src={Produto12} className="card-img-top" />
+            <img src={Produto12} alt="" className="card-img-top" />
             <div className="card-reader">
               R$ 4,59
             </div>

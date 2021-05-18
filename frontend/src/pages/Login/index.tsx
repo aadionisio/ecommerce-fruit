@@ -38,7 +38,7 @@ const Login: React.FC = () => {
                 </Link><br />
 
                 <p className="mt-3">
-                  Ainda não é cadastrado? <a href="#">Clique Aqui</a> para se cadastrar.
+                  Ainda não é cadastrado? <a href="/">Clique Aqui</a> para se cadastrar.
                 </p>
                 <p className="mt-3">
                   Esqueceu sua senha? <Link to="/recuperarsenha">Clique Aqui</Link> para recuperá-la.
